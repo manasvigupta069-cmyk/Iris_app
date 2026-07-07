@@ -20,4 +20,4 @@ features = np.array([[sepal_length, sepal_width, petal_length, petal_width]])
 if st.button("Predict"):
     prediction = model.predict(features)
     class_names=["Satosa","Versicolor","Virginica"]
-    st.success(f"The predicted iris species is:{class_names[prediction[0]})")
+    st.success(f"The predicted iris species is:{class_names[prediction[0]]}")
